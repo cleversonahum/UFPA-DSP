@@ -13,6 +13,7 @@ numpy = "*"
 scipy = "*"
 ipykernel = "*"
 wave = "*"
+sounddevice = "*"
 
 [requires]
 python_version = "3.8"
