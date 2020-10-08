@@ -1,0 +1,3 @@
+[submodule "projects/dtmf-generator"]
+	path = projects/dtmf-generator
+	url = git@github.com:cleversonahum/dtmf-generator.git
