@@ -10,5 +10,9 @@ grid on
 xlabel('Frequency (rad/s)')
 ylabel('Magnitude')
 
-figure()
-freqz(HzNum, HzDen)
+[hz, wz] = freqz(HzNum, HzDen)
+subplot(2,1,2)
+plot(wz*50,10*log10(hz))
+grid on
+xlabel('Frequency (rad/s)')
+ylabel('Magnitude')
